@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartDesk — Стол с функцией стул</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ЭКРАН 1 -->
+  <div class="gate" id="gate1">
+    <div class="gate-box">
+      <h1>Если тобой нельзя манипулировать</h1>
+      <button onclick="nextGate(1)">ДАЛЕЕ</button>
+    </div>
+  </div>
+
+  <!-- ЭКРАН 2 -->
+  <div class="gate hidden" id="gate2">
+    <div class="gate-box">
+      <h1>Если ты ненавидишь фурри</h1>
+      <button onclick="nextGate(2)">ДАЛЕЕ</button>
+    </div>
+  </div>
+
+  <!-- ЭКРАН 3 -->
+  <div class="gate hidden" id="gate3">
+    <div class="gate-box">
+      <h1>Если ты захотел купить стол с функцией подогрева попы</h1>
+      <button onclick="nextGate(3)">БЫСТРО ОФОРМЛЯЙ ЗАКАЗ</button>
+    </div>
+  </div>
+
+  <!-- САЙТ -->
+  <div class="site hidden" id="site">
+
+    <!-- ШАПКА С ЛОГОТИПОМ -->
+    <header class="topbar">
+      <div class="logo-left">SMARTDESK</div>
+      <div class="logo-right">Einstein.inc-corporation</div>
+    </header>
+
+    <section class="hero">
+      <h1>SMARTDESK</h1>
+      <p>Стол который становится стулом</p>
+    </section>
+
+    <section class="cards">
+      <a href="card1.html" class="card">
+        <img src="images/photo_2026-10-10_16-48-01.jpg" alt="Стол-стул">
+        <h2>СТОЛ → СТУЛ</h2>
+        <p>5 секунд и ты сидишь</p>
+      </a>
+
+      <a href="card2.html" class="card">
+        <img src="images/photo_2026-10-10_16-48-02.jpg" alt="GPS из стола">
+        <h2>GPS ИЗ СТОЛА</h2>
+        <p>Никогда не потеряешь</p>
+      </a>
+
+      <a href="card3.html" class="card">
+        <img src="images/photo_2026-10-10_16-48-02%20(2).jpg" alt="Подогрев попы">
+        <h2>ПОДОГРЕВ ПОПЫ</h2>
+        <p>Тепло в любую погоду</p>
+      </a>
+
+      <a href="card4.html" class="card">
+        <img src="images/photo_2026-10-10_16-48-02%20(3).jpg" alt="Mercedes статус">
+        <h2>MERCEDES СТАТУС</h2>
+        <p>Это не лого это статус</p>
+      </a>
+    </section>
+
+    <footer>
+      <p>Einstein.inc-corporation © 2026</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
